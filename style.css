@@ -114,3 +114,30 @@ body {
         width: 100%;
     }
 }
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .box-style,
+    .foot-1,
+    .foot-2 {
+        min-width: 100%;
+        height: auto;
+    }
+
+    .box-style {
+        height: 200px;
+    }
+
+    .foot-1,
+    .foot-2 {
+        height: 220px;
+    }
+
+    .header-1 .box {
+        height: 80px;
+    }
+}
